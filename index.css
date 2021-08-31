@@ -1,0 +1,90 @@
+.nav{
+    width: auto;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+}
+
+.name{
+    text-align: center;
+    width: 200px;
+    position: absolute;
+    padding: 10px;
+    font-size: 1.5rem;
+    top: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    font-weight: lighter;
+}
+
+/*menu and nav items*/
+.menu{
+    width: 250px;
+    padding: 5px;
+    position: absolute;
+    right:0px;
+    top: 50px;
+}
+.nav-items{
+    list-style-type: none;
+    display: inline-block;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.nav-items:hover{
+    color: rgb(26, 106, 211);
+}
+
+/*News contents and heading*/
+
+.page-heading{
+    height: 80px;
+    width: 800px;
+    color: black;
+    position: absolute;
+    left: 200px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.news-box{
+    width: auto;
+    height:200px ;
+    margin-left: 30px;
+    
+}
+.news-date{
+width: 150px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+padding: 2%;
+
+}
+.news-heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    width: 250px;
+    padding: 2%;
+}
+.news-content{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 400px;
+    line-height: 1.5;
+    padding: 2%;
+
+}
+.news-image{
+    width: 300px;
+    height: 200px;
+
+}
+.news-pic{
+    width: 300px;
+    height: 200px;
+
+}
+.news-box{
+    display: inline-flex;
+}
