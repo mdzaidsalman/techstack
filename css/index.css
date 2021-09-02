@@ -1,6 +1,7 @@
 body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 .nav{
     width: auto;
     background-color: rgb(255, 255, 255);
@@ -10,41 +11,108 @@ body{
     text-align: center;
     font-weight: bold;
     position:sticky;
-    top:0px;
+    top: 0px;
 }
+
 .logo{
     width: 40px;
     margin-right: 100px;
     display: flex;
     padding: 10px;
-   
-
-    
 }
+
 .news-image{
     width:100%;
     height:250px ;
     margin-bottom: 10px;
-    margin-top:20px;
-
+    margin-top: 20px;
+    border-radius: 3px;
 }
 
 .heading{
-  
-   font-weight: bold;
-  font-size: 2rem;
-  margin-left: 10px;
-    margin-top:30px
-   
+    font-weight: bold;
+    font-size: 2rem;
+    margin-left: 10px;
+    margin-top: 30px;
 }
+
 .paragraph{
-   padding: 10px;
-   font-size: 1.2rem;
-   padding-bottom: 30px;
+    padding: 10px;
+    font-size: 1.2rem;
+    padding-bottom: 30px; 
+ 
 }
+
 hr{
-    width: auto;
-    color: grey;
-    size: 1rem;
+    width: 280px;
     
+
+    
+}
+
+#mydiv{
+    width: auto;
+    height: 200px;
+}
+
+.container{
+    width: 100%;
+    height:400px;
+    background-color: rgb(233, 230, 230);
+    
+}
+
+.call{
+    font-weight: bold;
+    width: auto;
+    padding-left:12px;
+    padding-top: 10px;
+    height: auto;
+    padding-top: 90px;
+    
+}
+
+.number{
+    width: auto;
+    height: auto;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    
+}
+
+.write{
+    font-weight: bold;
+    width: auto;
+    padding-left: 12px;
+}
+
+.email{
+    padding-left: 12px;
+}
+
+.follow{
+    font-weight: bold;
+    padding-left: 12px;
+    display: flex;
+    margin-top: 40px; 
+    margin-bottom: 20px;  
+}
+
+.follow-icon{
+    list-style-type: none;
+    display: flex;  
+}
+
+.social-icon{
+      
+}
+
+.image{
+    width: 20px;
+    margin-left: 15px;
+}
+
+.copyright{
+    margin-top: 40px;
+    text-align: center;
 }
