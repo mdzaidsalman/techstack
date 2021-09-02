@@ -44,10 +44,10 @@ body{
 }
 
 hr{
-    width: 280px;
-    
-
-    
+    width: 280px;    
+}
+.end{
+    width: auto;
 }
 
 #mydiv{
@@ -57,8 +57,8 @@ hr{
 
 .container{
     width: 100%;
-    height:400px;
-    background-color: white;
+    height:320px;
+    background-color: rgb(245, 238, 238);
     
 }
 
@@ -92,7 +92,7 @@ hr{
 
 .follow{
     font-weight: bold;
-    padding-left: 12px;
+    padding-left: 14px;
     display: flex;
     margin-top: 40px; 
     margin-bottom: 20px;  
@@ -101,18 +101,24 @@ hr{
 .follow-icon{
     list-style-type: none;
     display: flex;  
-}
-
-.social-icon{
-      
+    width: 30px;
 }
 
 .image{
-    width: 20px;
-    margin-left: 15px;
+    width: 20px;    
+}
+
+.social-icon{
+    padding-left: 10px;
+    height: 20px;
 }
 
 .copyright{
     margin-top: 40px;
     text-align: center;
 }
+
+.rights{
+    text-align: center;
+}
+
