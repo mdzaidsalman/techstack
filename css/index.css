@@ -39,12 +39,19 @@ body{
 .paragraph{
     padding: 10px;
     font-size: 1.2rem;
-    padding-bottom: 30px; 
- 
+    padding-bottom: 20px;  
+}
+
+.readmore{
+    margin-bottom: 45px;
+    text-align: end;
+    margin-right: 15px;
+
+
 }
 
 hr{
-    width: 280px;    
+    width: 280px;   
 }
 .end{
     width: auto;
@@ -100,19 +107,19 @@ hr{
 
 .follow-icon{
     list-style-type: none;
-    display: inline-block;  
-    width: 30px;
+    display: inline-block;
     margin-left: 10px;
     
 }
 
 .image{
-    width: 20px;    
+    width: 20px;     
 }
 
 .social-icon{
-    padding-left: 1px;
+    padding: 1px;
     height: 20px;
+    
 }
 
 .copyright{
@@ -123,4 +130,10 @@ hr{
 .rights{
     text-align: center;
 }
+.readmorelink{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
 
