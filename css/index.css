@@ -8,7 +8,7 @@ body{
     width: auto;
     background-color: rgb(255, 255, 255);
     font-size: 1.5rem;
-    padding: 10px;
+    
     color: black;
     text-align: center;
     font-weight: bold;
@@ -17,10 +17,11 @@ body{
     opacity: 92%;
     display: flex;
     list-style-type: none;
+    padding-bottom: 3px;   
 }
 
 .logo{
-    width: 24px;
+    width: 23px;
     margin-right: 100px;
     display: flex;
     align-items: center;
@@ -32,6 +33,7 @@ body{
     width: 50px;
 }
 .brand-name-list{
+    padding-top: 2px;
 }
 
 .news-image{
