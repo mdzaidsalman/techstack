@@ -45,13 +45,6 @@ body{
     padding: 2px;
 }
 
-.menu{
-    width:30px;
-    margin-left: 110px;
-    background-color: white;
-    border-radius: 3px;    
-}
-
 .news-image{
     width:100%;
     height:240px ;
@@ -84,9 +77,6 @@ body{
 hr{
     width: 280px;   
 }
-.end{
-    width: auto;
-}
 
 #mydiv{
     width: auto;
@@ -95,7 +85,7 @@ hr{
 
 .container{
     width: 100%;
-    height:360px;
+    height:370px;
     background-color: rgb(200, 139, 139);       
 }
 .call{
@@ -171,4 +161,20 @@ hr{
     margin-left: 14px;
 }
 
+.back-home{
+    color: rgb(1, 69, 230); 
+    text-decoration:none;
+    font-size:large;
+    
+
+}
+/*last hr*/
+.end{
+    width: auto;
+    margin-bottom: 50px;
+}
+
+.home{
+    padding-bottom: 50px;
+}
 
