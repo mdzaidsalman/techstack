@@ -130,8 +130,9 @@ hr{
     color: black;
     font-weight: bold;
 }
+
 .back-home{
     text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
+    color: rgb(1, 69, 230);
+    font-size: large;
 }
