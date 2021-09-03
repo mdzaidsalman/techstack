@@ -37,7 +37,29 @@ body{
 
 .brand-name-list{
     padding-top: 6px;
+    background-color: blue;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 5px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    
 
+}
+
+.stack{
+    padding-top: 6px;
+    margin-left: px;
+    padding-top: 6px;
+    background-color: rgb(14, 102, 2);
+    padding-left: 6px;
+    padding-right: 7px;
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    
 }
 
 .news-image{
