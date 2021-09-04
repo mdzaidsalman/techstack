@@ -8,7 +8,7 @@ body{
     width: auto;
     background-color: rgb(7, 7, 7);
     font-size: 1.2rem;
-    padding: 10px;
+    padding: 15px;
     color: rgb(255, 255, 255);
     text-align: center;
     font-weight: bold;
@@ -21,7 +21,7 @@ body{
 }
 
 .tech{
-    background-color: rgb(60, 60, 195);
+    background-color: rgb(9, 139, 133);
     padding-left: 9px;
     padding-right: 9px;
     border-radius: 6px;
@@ -29,12 +29,12 @@ body{
     border-top-right-radius: 0;
     border-bottom-left-radius: 0;
     margin-left: 10px;
-    padding: 2px;
+    padding: 4px;
 }
 
 .stack{
     margin-left: 3px;
-    background-color: rgb(221, 34, 34);
+    background-color: rgb(28, 163, 69);
     padding-left: 8px;
     padding-right: 9px;
     border-radius: 6px;
@@ -42,7 +42,7 @@ body{
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     color: black;
-    padding: 2px;
+    padding: 4px;
 }
 
 .news-image{
@@ -78,6 +78,8 @@ body{
 hr{
     width: 280px;   
 }
+
+
 
 #mydiv{
     width: auto;
