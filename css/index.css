@@ -68,7 +68,7 @@ body{
 }
 
 .paragraph{
-    width: 100%;
+    width: auto;
     padding: 10px;
     font-size: 1.2rem;
     padding-bottom: 20px; 
