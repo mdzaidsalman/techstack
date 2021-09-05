@@ -206,7 +206,7 @@ hr{
 #flyoutMenu {
     width: 100vw;
     height: 100vh;
-    background-color: #030303;
+    background-color: rgb(28, 163, 69);
     position: fixed;
     top: 0;
     left: 0;
@@ -220,11 +220,12 @@ hr{
     width: auto;
     height: 30px;
     padding: 4px;
-    padding-top: 14px;
+    padding-top:14px;
     padding-bottom: 14px; 
     padding-left: 30px;
     text-decoration: none;
-    color: white; 
+    color: rgb(0, 0, 0); 
+   
 }
 
 .close{
@@ -233,10 +234,12 @@ hr{
     padding: 4px;
     padding-top: 14px;
     padding-bottom: 14px; 
-    padding: 10px;
+    padding: 6px;
     text-decoration: none;
     color: rgb(0, 0, 0);
     background-color: white; 
+    margin: 8px;
+    margin-bottom:30px;
 }
 
 .close-image{
@@ -246,8 +249,8 @@ hr{
      text-decoration: none;
  }
 .menu:hover {
-    background-color: grey;
-    color: rgb(10, 10, 10);   
+    background-color: rgb(255, 255, 255);
+    color: rgb(2, 19, 117);   
 } 
 
 #flyoutMenu.show {
