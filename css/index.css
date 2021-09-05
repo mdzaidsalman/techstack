@@ -55,7 +55,7 @@ border-radius: 1px;
 }
 
 .hamburger{
-margin-right: 20px;
+
 }
 
 .news-image{
@@ -195,3 +195,39 @@ hr{
     padding-bottom: 50px;
 }
 
+/* hamburger menu css*/
+.dropbtn {
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+       
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0a0a0a;
+    min-width: 320px;
+    width: auto;
+    overflow: auto;
+    z-index: 1;
+    margin-top: 20px;
+
+  }
+  
+  .dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 15px 18px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: rgb(136, 131, 131);}
+  
+  .show {display: block;}

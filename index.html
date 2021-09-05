@@ -15,21 +15,36 @@
 </head>
 
 <body>
-
+    
     <!--black-Bar-->
     <div class="nav">
         <!--Brand Logo-->
-
         <div class="hamburger">
-            <div class="test"></div>
-            <div class="test"></div>
-            <div class="test"></div>
-            <div class="test"></div>
-        </div>
+            <!--click-->
+            <div class="dropdown">
+                <div onclick="myFunction()" class="dropbtn"><div class="test"></div>
+                <div class="test"></div>
+                <div class="test"></div>
+                <div class="test"></div>
+            </div>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#home">Home</a>
+                  <a href="#about">About</a>
+                  <a href="#contact">Contact</a>
+                
+                </div>
+            </div>
+            </div>
+            <!--click-->
+            
+            
+
+    
         <div class="tech">Tech</div>
         <div class="stack">Stack</div>
-
-    </div>
+       </div>
+        
+    
 
     <!--Updated Block-3-->
     <div class="news-image"><img src="Image/joyful.jpg" alt="joyfulgirl" class="news-image"></div>
@@ -211,7 +226,25 @@
 
 
     <!--Block-javs-script-->
-    <script src="javascript/index.js"></script>
+    <script>/* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }</script>
 
 </body>
 
