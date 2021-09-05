@@ -206,7 +206,7 @@ hr{
 #flyoutMenu {
     width: 100vw;
     height: 100vh;
-    background-color: rgb(28, 163, 69);
+    background-color: rgb(26, 24, 24);
     position: fixed;
     top: 0;
     left: 0;
@@ -224,7 +224,8 @@ hr{
     padding-bottom: 14px; 
     padding-left: 30px;
     text-decoration: none;
-    color: rgb(0, 0, 0); 
+    color: rgb(255, 255, 255); 
+    text-align: start;
    
 }
 
@@ -249,8 +250,8 @@ hr{
      text-decoration: none;
  }
 .menu:hover {
-    background-color: rgb(255, 255, 255);
-    color: rgb(2, 19, 117);   
+    background-color: rgb(2, 2, 2);
+    color: rgb(253, 253, 253);   
 } 
 
 #flyoutMenu.show {
