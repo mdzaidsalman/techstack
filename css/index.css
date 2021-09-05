@@ -214,8 +214,6 @@ hr{
     transition: transform .3s cubic-bezier(0, .52, 0, 1);
     overflow: scroll;
     z-index: 1000;
-    padding-top: 50px;
-    
 }
 
 .menu{
@@ -227,16 +225,29 @@ hr{
     padding-left: 30px;
     text-decoration: none;
     color: white; 
+}
 
+.close{
+    width:30px;
+    height: 30px;
+    padding: 4px;
+    padding-top: 14px;
+    padding-bottom: 14px; 
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: white; 
+}
+
+.close-image{
+    width: 30px;
 }
  a{
      text-decoration: none;
  }
 .menu:hover {
-    background-color: rgb(170, 169, 169);
-    color: rgb(10, 10, 10);
-      
-    
+    background-color: grey;
+    color: rgb(10, 10, 10);   
 } 
 
 #flyoutMenu.show {
