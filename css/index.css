@@ -20,14 +20,6 @@ body{
     list-style-type: none;       
 }
 
-/*
-divs can only be shown when it has specified width and height along with
-the background color, but if the background color is black you can clearly see
-the desired sized div and hence it is easier to style it in easy way. But for another 
-groups in our day to day life we use another property to arrange the div in a proper
-manner by using flex box. By applying flex property we can do so many things.
-But the flex property can align the divs in a line and make it look stacked in 
-line. we can also do it by adding inline block to the element and make it look like stacked altogether.*/
 .tech{
     background-color: rgb(9, 139, 133);
     padding-left: 9px;
