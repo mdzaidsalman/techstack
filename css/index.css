@@ -17,10 +17,17 @@ body{
     top: 0px;
     opacity: 92%;
     display: flex;
-    list-style-type: none;
-       
+    list-style-type: none;       
 }
 
+/*
+divs can only be shown when it has specified width and height along with
+the background color, but if the background color is black you can clearly see
+the desired sized div and hence it is easier to style it in easy way. But for another 
+groups in our day to day life we use another property to arrange the div in a proper
+manner by using flex box. By applying flex property we can do so many things.
+But the flex property can align the divs in a line and make it look stacked in 
+line. we can also do it by adding inline block to the element and make it look like stacked altogether.*/
 .tech{
     background-color: rgb(9, 139, 133);
     padding-left: 9px;
@@ -64,6 +71,12 @@ border-radius: 1px;
     margin-bottom: 10px;
     margin-top: 30px;
 }
+@media(min-width:700px){
+    .news-image{
+        width: 400px;
+        height: 300px;
+    }
+}
 
 .date{
     width: auto;
@@ -92,8 +105,6 @@ hr{
     width: 280px;   
 }
 
-
-
 #mydiv{
     width: auto;
     height: 200px;
@@ -104,22 +115,21 @@ hr{
     height:auto;
     background-color: rgb(200, 139, 139);       
 }
+
 .call{
     font-weight: bold;
     width: auto;
     padding-left:12px;
     padding-top: 10px;
     height: auto;
-    padding-top: 50px;
-    
+    padding-top: 50px;   
 }
 
 .number{
     width: auto;
     height: auto;
     padding-left: 10px;
-    padding-bottom: 15px;
-    
+    padding-bottom: 15px;   
 }
 
 .write{
@@ -143,8 +153,7 @@ hr{
 .follow-icon{
     list-style-type: none;
     display: inline-block;
-    margin-left: 10px;
-    
+    margin-left: 10px;   
 }
 
 .image{
@@ -182,9 +191,8 @@ hr{
     text-decoration:none;
     font-size:large;
     margin-left: 14px;
-    
-
 }
+
 /*last hr*/
 .end{
     width: auto;
@@ -225,8 +233,7 @@ hr{
     padding-left: 30px;
     text-decoration: none;
     color: rgb(255, 255, 255); 
-    text-align: start;
-   
+    text-align: start;   
 }
 
 .close{
@@ -246,9 +253,11 @@ hr{
 .close-image{
     width: 30px;
 }
- a{
+
+ a {
      text-decoration: none;
  }
+
 .menu:hover {
     background-color: rgb(2, 2, 2);
     color: rgb(253, 253, 253);   
