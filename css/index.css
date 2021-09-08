@@ -53,9 +53,6 @@ margin-top: 4px;
 border-radius: 1px;
 }
 
-.hamburger{
-
-}
 
 .news-image{
     width:100%;
@@ -204,14 +201,17 @@ hr{
     transition: transform .3s cubic-bezier(0, .52, 0, 1);
 }
 
+.hamburger:hover{
+    background-color: rgb(9, 139, 133);
+}
 #flyoutMenu {
-    width: 100vw;
+    width: 400px;
     height: 100vh;
     background-color: rgb(26, 24, 24);
     position: fixed;
     top: 0;
     left: 0;
-    transform: translate3d(-100vw, 0, 0);
+    transform: translate3d(-200vw, 0, 0);
     transition: transform .3s cubic-bezier(0, .52, 0, 1);
     overflow: scroll;
     z-index: 1000;
@@ -232,8 +232,6 @@ hr{
 .close{
     width:30px;
     height: 30px;
-    padding: 4px;
-    padding-top: 14px;
     padding-bottom: 14px; 
     padding: 6px;
     text-decoration: none;
@@ -245,6 +243,10 @@ hr{
 
 .close-image{
     width: 30px;
+}
+
+.close-image:hover{
+    background-color: red;
 }
 
  a {
