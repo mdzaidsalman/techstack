@@ -262,3 +262,21 @@ hr{
 #flyoutMenu.show {
     transform: translate3d(0vw, 0, 0);
 }  
+
+.container-career{
+    height: 300px;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.career{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.notice{
+    margin-top: 20px;
+    color: red;
+
+}
