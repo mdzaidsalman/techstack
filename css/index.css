@@ -116,38 +116,42 @@ hr{
     padding-left:12px;
     padding-top: 10px;
     height: auto;
-    padding-top: 50px;   
+    padding-top: 50px;
+    text-align: center;  
 }
 
 .number{
     width: auto;
     height: auto;
     padding-left: 10px;
-    padding-bottom: 15px;   
+    padding-bottom: 15px; 
+    text-align: center;  
 }
 
 .write{
     font-weight: bold;
     width: auto;
     padding-left: 12px;
+    text-align: center;
 }
 
 .email{
     padding-left: 12px;
+    text-align: center;
 }
 
 .follow{
     font-weight: bold;
     padding-left: 14px;
-    display: flex;
     margin-top: 40px; 
-    margin-bottom: 20px;  
+    margin-bottom: 20px; 
+    text-align: center; 
 }
 
 .follow-icon{
     list-style-type: none;
     display: inline-block;
-    margin-left: 10px;   
+    margin-left: 10px; 
 }
 
 .image{
@@ -156,8 +160,11 @@ hr{
 
 .social-icon{
     padding: 1px;
-    height: 20px;
-    
+    height: 2;  
+}
+
+.icons{
+    text-align: center;
 }
 
 .copyright{
